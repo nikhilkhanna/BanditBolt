@@ -10,7 +10,11 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
-
+/**
+ * @author Nikhil Khanna
+ * The Sprite that is located on the sprite menu.
+ * When clicked (if there are enough left) spawns a draggable sprite that the player can place
+ */
 public class SpriteButton extends GameSprite{
 	public static enum spriteType{Platform, Jumppad, TurnLeft, TurnRight, SpeedBoost};
 	public static Sound trash = Gdx.audio.newSound(Gdx.files.internal("data/trash.wav"));
