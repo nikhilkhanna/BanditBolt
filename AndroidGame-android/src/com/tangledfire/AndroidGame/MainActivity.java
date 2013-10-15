@@ -8,6 +8,11 @@ import com.android.vending.billing.IInAppBillingService;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.tangledfire.AndroidGame.R;
+
+/**
+ * @author Nikhil Khanna
+ * The first activity to be launched; primarily creates and launches an instance of Android Game
+ */
 public class MainActivity extends AndroidApplication {
     private ActionResolverAndroid actionResolver;
     @Override

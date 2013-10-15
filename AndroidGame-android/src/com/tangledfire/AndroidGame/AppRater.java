@@ -9,7 +9,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
+/**
+ * @author Nikhil Khanna
+ * Launches a "rate this app" dialog when certain conditions are met
+ */
 public class AppRater {
     private final static String APP_TITLE = "Bandit Bolt";
     private final static String APP_PNAME = "com.tangledfire.AndroidGame";

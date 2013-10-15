@@ -2,6 +2,7 @@ package com.tangledfire.AndroidGame;
 
 import java.util.jar.JarEntry;
 
+
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.ui.List;
 import com.tangledfire.AndroidGame.IabHelper.OnIabPurchaseFinishedListener;
@@ -14,6 +15,10 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Handler;
 import android.widget.Toast;
+/**
+ * @author Nikhil Khanna
+ * Handles Android specific functionality (like in app purchases)
+ */
 public class ActionResolverAndroid implements ActionResolver, QueryInventoryFinishedListener {	   
 	   Handler uiThread;
 	   Context appContext;
