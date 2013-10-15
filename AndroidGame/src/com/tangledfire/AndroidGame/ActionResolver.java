@@ -1,5 +1,8 @@
 package com.tangledfire.AndroidGame;
-
+/**
+ * This interface allows the desktop and android versions to both include methods to deal with
+ * in app purchases and other platform specific functionality. 
+ */
 public interface ActionResolver {
 
 	   public void showToast(CharSequence message, int toastDuration);
