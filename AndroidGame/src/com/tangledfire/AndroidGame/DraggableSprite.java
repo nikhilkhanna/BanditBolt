@@ -4,7 +4,10 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.math.Vector2;
 import com.tangledfire.AndroidGame.SpriteButton.spriteType;
-
+/**
+ * @author Nikhil Khanna
+ * The sprite that a player places on the grid
+ */
 public class DraggableSprite extends GameSprite{
 public static Sound snap = Gdx.audio.newSound(Gdx.files.internal("data/snap.wav"));
 public static Sound thud = Gdx.audio.newSound(Gdx.files.internal("data/thud.wav"));

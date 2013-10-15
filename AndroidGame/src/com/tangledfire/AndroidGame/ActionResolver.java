@@ -2,6 +2,7 @@ package com.tangledfire.AndroidGame;
 /**
  * This interface allows the desktop and android versions to both include methods to deal with
  * in app purchases and other platform specific functionality. 
+ * @author Nikhil Khanna
  */
 public interface ActionResolver {
 

@@ -15,7 +15,10 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.utils.Logger;
-
+/**
+ * @author Nikhil Khanna
+ * The screen that contains the doors which bring players to specific level selects screens
+ */
 public class WorldSelectScreen implements Screen
 {
 	public Button[] doorButtons;

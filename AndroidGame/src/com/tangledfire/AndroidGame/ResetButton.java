@@ -3,7 +3,10 @@ package com.tangledfire.AndroidGame;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-
+/**
+ * @author Nikhil Khanna
+ * A button that resets the level when hit
+ */
 public class ResetButton extends TextButton
 {
 	public static Sound trash = Gdx.audio.newSound(Gdx.files.internal("data/trash.wav"));

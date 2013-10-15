@@ -5,7 +5,10 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
-
+/**
+ * @author Nikhil Khanna
+ * The trampoline a player can bounce on
+ */
 public class JumpPad extends GameSprite{
 	public final static String filename = "data/jumppad.png";
 	public static TextureRegion tex = AndroidGame.gameTextures.findRegion("Tram_STATIC");

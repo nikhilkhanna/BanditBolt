@@ -4,7 +4,10 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-
+/**
+ * @author Nikhil Khanna
+ * A button for the level select screen
+ */
 public class LevelButton extends Button
 {
 	public static final String filename = "Level";

@@ -3,7 +3,10 @@ package com.tangledfire.AndroidGame;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-
+/**
+ * @author Nikhil Khanna
+ * A platform the player can land on and items can be placed on (if it is not metal)
+ */
 public class Platform extends GameSprite
 {
 	public static final String filename = "data/platform.png";

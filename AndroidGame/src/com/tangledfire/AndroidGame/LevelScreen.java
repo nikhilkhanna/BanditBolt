@@ -13,7 +13,10 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.Rectangle;
-
+/**
+ * @author Nikhil Khanna
+ * The screen that shows during gameplay(contains a level)
+ */
 public class LevelScreen implements Screen{//this class is used for individiual levels (this is only used for a single level @ a time)
 	public static final String levelToEdit = AndroidGame.levelToEdit;
 	public static final boolean levelEditingMode = AndroidGame.levelEditingMode;

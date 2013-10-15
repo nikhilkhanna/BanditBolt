@@ -5,7 +5,10 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-
+/**
+ * @author Nikhil Khanna
+ * The screen at the beginning of the game (shows company name)
+ */
 public class SplashScreen implements Screen{
 	public AndroidGame game;
 	public SpriteBatch batch;

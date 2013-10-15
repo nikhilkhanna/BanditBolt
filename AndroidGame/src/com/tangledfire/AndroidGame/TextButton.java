@@ -5,7 +5,10 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.BitmapFont.TextBounds;
-
+/**
+ * @author Nikhil Khanna
+ * A button that has text on it
+ */
 public class TextButton extends Button
 {
 	private BitmapFont buttonText;

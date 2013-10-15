@@ -4,7 +4,10 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
-
+/**
+ * @author Nikhil Khanna
+ * An arrow that turns the player when hit
+ */
 public class Turn extends GameSprite
 {
 	public static final String filename = "data/turn.png";

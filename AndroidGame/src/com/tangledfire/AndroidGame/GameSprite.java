@@ -11,7 +11,10 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
-
+/**
+ * @author Nikhil Khanna
+ *  superclass of all sprites in the game that supports animations and not drawing offscreen
+ */
 public class GameSprite extends Sprite{
 public Vector2 velocity = Vector2.Zero; 
 public boolean needsPlatform = false;//if it needs to sit on a platform

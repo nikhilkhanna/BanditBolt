@@ -20,7 +20,10 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector3;
 import com.sun.corba.se.spi.ior.MakeImmutable;
-
+/**
+ * main game class (sets up most of the global variables and screens)
+ * @author Nikhil Khanna
+ */
 public class AndroidGame extends Game {
 	//developer option: whether or not the level editor should open
 	private static final boolean islevelEditingMode = false;

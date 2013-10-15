@@ -6,7 +6,10 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
-
+/**
+ * @author Nikhil Khanna
+ * The Camera for gameplay (all non-hud sprites are drawn based on its position)
+ */
 public class GameCamera extends OrthographicCamera
 {
 	public static final int offScreenMargin = 50;

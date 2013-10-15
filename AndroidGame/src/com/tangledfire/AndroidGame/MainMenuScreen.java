@@ -7,7 +7,10 @@ import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-
+/**
+ * @author Nikhil Khanna
+ * The Main Menu
+ */
 public class MainMenuScreen implements Screen
 {
 	public TextButton playGame;

@@ -6,7 +6,10 @@ import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.collision.BoundingBox;
-
+/**
+ * @author Nikhil Khanna
+ * Defines the buttons (clickable triggers) in the game
+ */
 public class Button extends GameSprite 
 {
 	public static Sound click = Gdx.audio.newSound(Gdx.files.internal("data/click.wav"));

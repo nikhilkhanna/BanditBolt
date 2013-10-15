@@ -7,7 +7,10 @@ import org.w3c.dom.*;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
-
+/**
+ * @author Nikhil Khanna
+ * Uses an external file containing strings for different languages for localization
+ */
 public class LanguagesManager {
         private static LanguagesManager _instance = null;
         

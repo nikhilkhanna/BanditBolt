@@ -2,7 +2,10 @@ package com.tangledfire.AndroidGame;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-
+/**
+ * @author Nikhil Khanna
+ * The button that plays the game when it is hit
+ */
 public class PlayButton extends Button//TODO make it change to a stop sign if game is running
 {
 	public static final String filename = "Play";

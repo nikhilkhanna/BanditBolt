@@ -11,7 +11,10 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.BitmapFont.TextBounds;
-
+/**
+ * @author Nikhil Khanna
+ * The "level completed" screen that shows at the end of a level
+ */
 public class LevelFinishScreen implements Screen
 {
 	public SpriteBatch spriteBatch;

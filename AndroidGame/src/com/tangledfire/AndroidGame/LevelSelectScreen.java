@@ -10,7 +10,10 @@ import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.utils.Array;
-
+/**
+ * @author Nikhil Khanna
+ * The Level Select screen that displays the 15 levels you can go to behind a specific door
+ */
 public class LevelSelectScreen implements Screen{
 	public Array<LevelButton> buttons;
 	public Button backButton;

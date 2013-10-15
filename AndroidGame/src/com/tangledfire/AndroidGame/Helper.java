@@ -6,7 +6,10 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
-
+/**
+ * @author Nikhil Khanna
+ * Contains convenience methods (camera correct, line intersection, etc.)
+ */
 public class Helper {
 	public static final float epsilon = .001f;
 	public static float simplePointerY()

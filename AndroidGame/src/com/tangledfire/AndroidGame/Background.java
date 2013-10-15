@@ -4,7 +4,10 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasRegion;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-
+/**
+ * @author Nikhil Khanna
+ * The backgrounds used in the game
+ */
 import java.util.Random;
 public class Background{
 	TextureAtlas myAtlas;

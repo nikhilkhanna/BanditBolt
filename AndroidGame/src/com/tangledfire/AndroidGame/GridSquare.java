@@ -11,7 +11,10 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
-
+/**
+ * @author Nikhil Khanna
+ * The squares that compose the grid, each squares can hold one sprite
+ */
 public class GridSquare{//a single grid square that contains a static object
 
 	public static int width = 50;//standard: 50

@@ -6,7 +6,10 @@ import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
-
+/**
+ * @author Nikhil Khanna
+ * The door the player hits to end the game
+ */
 public class Finish extends GameSprite
 {
 	public final static String filename = "data/finish.png";

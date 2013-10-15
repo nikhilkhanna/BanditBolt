@@ -14,7 +14,10 @@ import com.badlogic.gdx.math.Intersector;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.utils.Array;
 import com.sun.org.apache.xml.internal.resolver.readers.XCatalogReader;
-
+/**
+ * @author Nikhil Khanna
+ * The player! Controls the behaviors of the Bandit
+ */
 public class Player extends GameSprite{
 public static final String filename = "data/Player.png";
 //Player Sounds

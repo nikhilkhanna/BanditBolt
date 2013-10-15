@@ -6,7 +6,10 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-
+/**
+ * @author Nikhil Khanna
+ * The key for a locked door(picked up)
+ */
 public class Key extends GameSprite
 {
 	public static Sound key = Gdx.audio.newSound(Gdx.files.internal("data/keypickup.wav"));

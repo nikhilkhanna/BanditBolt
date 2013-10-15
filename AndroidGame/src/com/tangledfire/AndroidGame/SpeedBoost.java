@@ -5,6 +5,10 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
+/**
+ * @author Nikhil Khanna
+ * The fire that speeds up the player when hit
+ */
 public class SpeedBoost extends GameSprite
 {
 	public final static String filename = "data/speedboost.png";

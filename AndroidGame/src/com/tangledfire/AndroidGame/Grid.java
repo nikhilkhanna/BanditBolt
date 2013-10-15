@@ -12,7 +12,10 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.utils.Array;
-
+/**
+ * @author Nikhil Khanna
+ * The grid that holds all the grid squares (basic system for the levels)
+ */
 public class Grid {
 public GridSquare[][] squares;
 public final int width;//width of grid in grid squares

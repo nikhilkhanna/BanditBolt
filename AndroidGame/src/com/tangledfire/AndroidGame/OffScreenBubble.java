@@ -3,7 +3,11 @@ package com.tangledfire.AndroidGame;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
-
+/**
+ * @author Nikhil Khanna
+ * The small circle containing either the door or the key when they are offscreen
+ * (shows their position even when not visible)
+ */
 public class OffScreenBubble extends GameSprite
 {	
 	boolean isFinish = true;

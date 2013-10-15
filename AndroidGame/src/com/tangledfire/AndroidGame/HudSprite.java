@@ -1,7 +1,10 @@
 package com.tangledfire.AndroidGame;
 
 import com.badlogic.gdx.Gdx;
-
+/**
+ * @author Nikhil Khanna
+ * A sprite that is located on the hud(does not transalte with the camera)
+ */
 public class HudSprite extends GameSprite
 {
 	public HudSprite(String path)

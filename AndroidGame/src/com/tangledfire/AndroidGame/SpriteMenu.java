@@ -13,7 +13,10 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.Rectangle;
 import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
-
+/**
+ * @author Nikhil Khanna
+ * The menu that contains the sprite a player can drag to place
+ */
 public class SpriteMenu extends HudSprite
 {
 	public ArrayList<SpriteButton> buttons;
