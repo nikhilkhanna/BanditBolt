@@ -25,7 +25,6 @@ public class MainActivity extends AndroidApplication {
         cfg.useGL20 = true;
         cfg.maxSimultaneousSounds = 5;
         cfg.useAccelerometer = false;
-        com.facebook.AppEventsLogger.activateApp(this, "1383264605244296");
         actionResolver = new ActionResolverAndroid(this, base64EncodedPublicStringKey, this);
         AppRater.app_launched(this);
         initialize(new AndroidGame(actionResolver), cfg);
