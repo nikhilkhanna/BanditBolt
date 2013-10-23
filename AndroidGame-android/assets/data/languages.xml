@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+   <!-- English -->
+   <language name="en_UK" >
+      <!--  Tutorials  -->
+      <string key="tut1" value="Drag items from the menu to place them and hit the play button to run" />
+      <string key="tut2" value="Drag your finger across the screen to pan" />
+      <string key="tut3" value="Drag placed items back to the menu to throw them away" />
+      <string key="tut4" value="Place the arrow! Hit it to change directions!" />
+      <string key="tut10" value="You can't change the position of some items" />
+      <string key="tut13" value="You can't place items on metal platforms" />   
+      <string key="tut16" value="You need to get the key to unlock some doors" />     
+      <string key="tut21" value="The fire temporarily speeds you up" />     
+      <!-- Buttons -->
+      <string key = "play" value = "Play" />
+      <string key = "resume" value = "Resume"/>
+      <string key = "menu" value = "Menu" />
+      <string key = "replay" value = "Replay" />
+      <string key = "next" value = "Next" />
+      <string key = "reset" value = "Reset Level" />
+      <string key = "options" value = "Options" />
+      <string key = "music_on" value = "Music = On" />
+      <string key = "music_off" value = "Music = Off" />
+      <string key = "sound" value = "Sound" />
+      <string key = "unlock" value = "Unlock All!" />
+      <string key = "buyunlock" value = "Unlock all levels!"/>
+      <string key = "comingsoon" value = "New levels coming soon!" />
+      <string key = "unlocktext" value = "Get all current and future levels!" />
+      <string key = "levelcomplete" value = "Level Complete" />
+   </language>
+   
+   <!-- Spanish -->
+   <language name="es_ES" >
+      <!--  Tutorials  -->
+      <string key="tut1" value="" />
+      <string key="tut2" value="" />
+      <string key="tut4" value="" />
+   </language>
+</languages>
