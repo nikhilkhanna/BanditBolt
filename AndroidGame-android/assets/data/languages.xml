@@ -32,8 +32,29 @@
    <!-- Spanish -->
    <language name="es_ES" >
       <!--  Tutorials  -->
-      <string key="tut1" value="" />
-      <string key="tut2" value="" />
-      <string key="tut4" value="" />
+      <string key="tut1" value="Arrastra artículos del menú para ubicarlos y luego toca el botón de reproducir para correr" />
+      <string key="tut2" value="Arrastra tu dedo sobre la pantalla para mover la imagen" />
+      <string key="tut3" value="Arrastra los artículos colocados de vuelta al menú para deshacerte de ellos" />
+      <string key="tut4" value="¡Coloca la flecha! ¡Tócala para cambiar de dirección!" />
+      <string key="tut10" value="No puedes cambiar la posición de algunos artículos" />
+      <string key="tut13" value="No puedes colocar artículos sobre plataformas de metal" />   
+      <string key="tut16" value="Necesitas obtener la llave para abrir algunas puertas" />     
+      <string key="tut21" value="El fuego te acelera temporalmente" />     
+      <!-- Buttons -->
+      <string key = "play" value = "Reproducir" />
+      <string key = "resume" value = "Continuar"/>
+      <string key = "menu" value = "Menú" />
+      <string key = "replay" value = "Reproducir Nuevamente" />
+      <string key = "next" value = "Siguiente" />
+      <string key = "reset" value = "Restablecer el Nivel" />
+      <string key = "options" value = "Opciones" />
+      <string key = "music_on" value = "Música = Encendida" />
+      <string key = "music_off" value = "Música = Apagada" />
+      <string key = "sound" value = "Sonido" />
+      <string key = "unlock" value = "¡Liberar Todos!" />
+      <string key = "buyunlock" value = "¡Liberar todos los niveles!"/>
+      <string key = "comingsoon" value = "¡Nuevos niveles pronto!" />
+      <string key = "unlocktext" value = "¡Recibe todos los niveles actuales y futuros!" />
+      <string key = "levelcomplete" value = "Nivel Completado" />
    </language>
 </languages>
